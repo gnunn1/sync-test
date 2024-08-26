@@ -10,7 +10,8 @@ spec:
     spec:
       containers:
         - name: presync-job
-          image: ubuntu     
+          image: ubuntu
+          imagePullPolicy: IfNotPresent
           command: 
             - /bin/bash
             - -c
@@ -18,4 +19,3 @@ spec:
               echo "This is pre-sync"
               echo "Changed hook again"
       restartPolicy: Never
-      imagePullPolicy: Always
