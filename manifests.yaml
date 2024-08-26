@@ -80,4 +80,5 @@ spec:
             - -c
             - |
               echo "This is Post-Sync"
+              echo "Change to test behavior"
       restartPolicy: Never
