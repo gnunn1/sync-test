@@ -16,4 +16,5 @@ spec:
             - -c
             - |
               echo "This is pre-sync"
+              echo "Changed hook"
       restartPolicy: Never
