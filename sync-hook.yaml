@@ -18,3 +18,4 @@ spec:
               echo "This is pre-sync"
               echo "Changed hook again"
       restartPolicy: Never
+      imagePullPolicy: Always
